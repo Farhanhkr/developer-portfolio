@@ -29,4 +29,25 @@ section{
 }
 .top-banner{
     background-image: url(top-banner.png);
+        background-repeat: no-repeat
+}
+.div2{
+    width: 50%;
+    padding: 5%;
+}
+.div2 img{
+    width: 100%;
+}
+#link-button2{
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 40px;
+    font-weight: 700;
+    background-image: linear-gradient(orange, tomato);
+}
+.dream-bg{
+    background-image: url(dream-bg.png);
     background-repeat: no-repeat;
+    background-position: right;
+}
