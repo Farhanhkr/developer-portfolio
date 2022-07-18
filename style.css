@@ -8,15 +8,15 @@ h1{
 .farhan-color{
     color: coral;
 }
-section{
+.flex{
     display: flex;
 }
-.div1{
+.half-weith{
     width: 50%;
     padding: 5%;
 }
-.div1 img{
-    width: 80%;
+.half-weith img{
+    width: 100%;
 
 }
 #link-button{
@@ -31,13 +31,6 @@ section{
     background-image: url(top-banner.png);
         background-repeat: no-repeat
 }
-.div2{
-    width: 50%;
-    padding: 5%;
-}
-.div2 img{
-    width: 100%;
-}
 #link-button2{
     text-decoration: none;
     border-radius: 5px;
@@ -50,4 +43,27 @@ section{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.last-part{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.ex-text{
+    font-size: 50px;
+}
+.full-stack{
+    font-size: 40px;
+}
+.exparince-item{
+    box-shadow: 10px 10px 40px gray;
+    margin: 5%;
+    width: 60%;
+    padding: 30px;
+}
+#full-stack-developer{
+    border-left: 7px solid tomato;
+}
+#baby-web-developer{
+    border-left: 7px solid blue;
 }
